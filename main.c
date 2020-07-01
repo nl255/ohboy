@@ -1931,7 +1931,7 @@ void ev_poll()
 #ifdef DINGOO_OPENDINGUX
 #ifdef GCWZERO
 #ifdef PG2
-			} else if(event.key.keysym.sym==SDLK_RCTRL){
+			} else if(event.key.keysym.sym==SDLK_RCTRL|event.key.keysym.sym==SDLK_HOME){
 #else
 			} else if(event.key.keysym.sym==SDLK_HOME){
 #endif /*PG2*/
